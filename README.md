@@ -214,6 +214,8 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      touch listip.cfg |
      touch banned.cfg
      ```
+     <br/>
+     <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/4e205bf3-4229-4906-92dd-a88fde66a150" height="90%" width="90%">
 
 6. **Start the CS 1.6 Server**:
 
