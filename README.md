@@ -58,7 +58,7 @@ Before you begin, ensure you have the following:
      sudo add-apt-repository multiverse
      sudo dpkg --add-architecture i386
      sudo apt update
-     sudo apt install lib32gcc-s1 steamcmd
+     sudo apt install lib32gcc-s1 steamcmd -y
      ```
 
 4. **Install CS 1.6 Server**
