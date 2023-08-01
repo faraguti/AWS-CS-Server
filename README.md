@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/01a9e382-9fd2-4a65-9678-bb6094ae93bf" height="100%" width="100%">
+  <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/139e66e2-7f69-4738-8b19-6eee15dd3db5" height="100%" width="100%">
 </p>
 
 # CS 1.6 Server Setup on AWS EC2 Instance (Ubuntu 22.04)
