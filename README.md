@@ -92,12 +92,26 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 1. **SSH into your EC2 Instance**
 
    - Open your terminal (on Linux/macOS), PowerShell (on Windows/macOS/Linux) or use an SSH client (e.g., PuTTY on Windows).
-   - Run this command, if necessary, to ensure your key is not publicly viewable.
+   - Run these commands, if necessary, to ensure your key is not publicly viewable.
 
-     Linux
+     **Linux**
       ```
      chmod 400 your-ec2-key-pair.pem
      ```
+      
+     **Windows**
+     Replace 'C:\path\to\private_key.pem' with the actual path to your private key file
+     ```
+      $pathToPrivateKey = 'C:\path\to\private_key.pem'
+      ```
+     Set restrictive permissions (Read and Write for the owner, no permissions for others)
+     ```
+      icacls $pathToPrivateKey /inheritance:r
+      icacls $pathToPrivateKey /grant:r 'NT AUTHORITY\SYSTEM:(R)'
+      icacls $pathToPrivateKey /grant:r 'BUILTIN\Administrators:(R)'
+      icacls $pathToPrivateKey /remove:g '*S-1-1-0'
+      ```
+      
    - Connect to your Ubuntu 22.04 EC2 instance using the public IP address provided by AWS:
      ```
      ssh -i your-ec2-key-pair.pem ubuntu@your-ec2-public-ip
