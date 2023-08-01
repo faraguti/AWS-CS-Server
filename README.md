@@ -2,6 +2,8 @@
 
 This repository contains instructions on how to set up and run a CS 1.6 server on an AWS EC2 instance. Follow the steps below to get your server up and running.
 
+![Alt](https://github.com/faraguti/cs1.6-server/blob/main/media/aws-login.png)
+
 ## Prerequisites
 
 Before you begin, ensure you have the following:
