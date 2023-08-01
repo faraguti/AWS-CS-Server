@@ -99,7 +99,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      chmod 400 your-ec2-key-pair.pem
      ```
       
-     **Windows**
+     **Windows**<br>
      Replace 'C:\path\to\private_key.pem' with the actual path to your private key file
      ```
       $pathToPrivateKey = 'C:\path\to\private_key.pem'
