@@ -249,9 +249,9 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      ```
      screen -r cs16-server
      ```
-   - By running the CS 1.6 server in a screen session, you ensure the server remains active and functional even when you are not connected to the EC2 instance via SSH. It allows you to manage the server remotely and maintain continuity in your server's operation, making it a convenient and reliable solution for hosting CS 1.6 on an AWS EC2 instance.
+   > :warning: When running the CS 1.6 server in a screen session, you ensure the server remains active and functional even when you are not connected to the EC2 instance via SSH. It allows you to manage the server remotely and maintain continuity in your server's operation, making it a convenient and reliable solution for hosting CS 1.6 on an AWS EC2 instance.
 
-
+<br>
 ## Troubleshooting
 
 If you encounter any issues during the setup process or while running the server, refer to the troubleshooting section or open an issue in this repository.
