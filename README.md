@@ -16,12 +16,14 @@ Before you begin, ensure you have the following:
    - Open your terminal (on Linux/macOS) or use an SSH client (e.g., PuTTY on Windows).
    - Run this command, if necessary, to ensure your key is not publicly viewable.
      ```
-     chmod 400 **your-ec2-key-pair**.pem
+     chmod 400 your-ec2-key-pair.pem
      ```
    - Connect to your EC2 instance using the public IP address provided by AWS:
      ```
      ssh -i "your-aws-key.pem" ubuntu@your-ec2-public-ip
      ```
+
+   > :warning: **Replace "your-aws-key.pem" with the filename of your EC2 key pair and "your-ec2-public-ip" with your EC2 instance's public IP address.**
 
 2. **Create a New User**
 
