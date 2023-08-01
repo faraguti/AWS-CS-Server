@@ -56,14 +56,14 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    <br/>
    <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/4c7e7d52-ff23-41b4-bc19-16d3ee23e45a" height="80%" width="80%">
  
-6. **Configure Network Settings:**
+7. **Configure Network Settings:**
 
    - You can keep the default settings for these options:
      - **Network**: Choose the VPC where your EC2 instance will reside.
      - **Subnet**: Choose a subnet within the selected VPC.
      - **Auto-assign Public IP**: Select "Enable" to allow your instance to have a public IP address.
       
-9. **Configure Security Group:**
+8. **Configure Security Group:**
 
    - Create a new security group or use an existing one to define inbound and outbound rules for your server. Make sure to open port 22 for SSH access and the port you'll be using for your CS 1.6 server (e.g., 27015) for both TCP and UDP traffic.
    <br/>
@@ -75,18 +75,17 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    
    > :warning: **Opening both TCP and UDP ports 27015 (used by the CS 1.6 server) to "0.0.0.0" (any IP address) allows any player to connect to your server.**
 
-7. **Add Storage:**
+9. **Add Storage:**
 
    - Define the storage size and type (20GiB is enough).
-   ![image](https://github.com/faraguti/cs1.6-server/assets/5418256/73b3fb15-cbbb-482b-9a83-8658f5d12610)
+   <br/>
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/73b3fb15-cbbb-482b-9a83-8658f5d12610" height="80%" width="80%">
 
-10. **Review and Launch:**
+10. **Review and Launch Instance:**
 
-    - Review your instance configuration and click "Launch" when ready.
-
-12. **Launch Instance:**
-
-    - Click "Launch Instances" to create your EC2 instance.
+    - Review your instance configuration and click "Launch Instance" when ready.
+   <br/>
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/3dcd1381-b27b-45c5-a17d-21dc3975be35" height="80%" width="80%">
 
 
 ## Setup CS 1.6 Server
