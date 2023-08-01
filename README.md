@@ -24,37 +24,37 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    - Go to the AWS Management Console (https://aws.amazon.com/).
    - Sign in with your AWS account credentials.
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/9c820c93-8c02-44ac-a2d3-6f8a23f0d4e6" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/9c820c93-8c02-44ac-a2d3-6f8a23f0d4e6" height="90%" width="90%">
 
 2. **Navigate to EC2 Dashboard:**
 
    - Once logged in, navigate to the EC2 Dashboard by clicking on "Services" in the top menu and selecting "EC2" under "Compute".
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/b6e78a13-5754-494e-8b39-20c93cc5717d" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/b6e78a13-5754-494e-8b39-20c93cc5717d" height="90%" width="90%">
 
 3. **Launch Instance:**
 
    - Click on "Launch Instance" to start the instance creation process.
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/4bef5437-6b96-4ea8-837a-d6425aa6a676" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/4bef5437-6b96-4ea8-837a-d6425aa6a676" height="90%" width="90%">
 
 4. **Choose an Amazon Machine Image (AMI):**
 
    - Select an Ubuntu 22.04 LTS AMI or any other Ubuntu AMI you prefer.
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/433c24e4-ef32-4f81-a84c-736de362d14c" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/433c24e4-ef32-4f81-a84c-736de362d14c" height="90%" width="90%">
 
 5. **Choose an Instance Type:**
 
    - Select the instance type based on your requirements (e.g., t2.micro).
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/770e9b6e-c2e8-4d65-817c-86ba615f4e0a" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/770e9b6e-c2e8-4d65-817c-86ba615f4e0a" height="90%" width="90%">
 
 6. **Select a Key Pair:**
 
     - Choose an existing key pair or create a new one to allow SSH access to your instance.
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/4c7e7d52-ff23-41b4-bc19-16d3ee23e45a" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/4c7e7d52-ff23-41b4-bc19-16d3ee23e45a" height="90%" width="90%">
  
 7. **Configure Network Settings:**
 
@@ -67,11 +67,11 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
    - Create a new security group or use an existing one to define inbound and outbound rules for your server. Make sure to open port 22 for SSH access and the port you'll be using for your CS 1.6 server (e.g., 27015) for both TCP and UDP traffic.
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/65bd6398-3e0e-445b-8e6f-57511e966cd2" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/65bd6398-3e0e-445b-8e6f-57511e966cd2" height="90%" width="90%">
 
    > :warning: **To improve security, consider updating the security group's inbound rule for SSH (port 22) to only allow access from your specific IP address. This way, only your IP will be able to SSH into the instance, reducing the risk of unauthorized access**
 
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/d9538453-f8b2-471c-8207-eeab1d297570" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/d9538453-f8b2-471c-8207-eeab1d297570" height="90%" width="90%">
    
    > :warning: **Opening both TCP and UDP ports 27015 (used by the CS 1.6 server) to "0.0.0.0" (any IP address) allows any player to connect to your server.**
 
@@ -79,7 +79,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
    - Define the storage size and type (20GiB is enough).
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/73b3fb15-cbbb-482b-9a83-8658f5d12610" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/73b3fb15-cbbb-482b-9a83-8658f5d12610" height="90%" width="90%">
 
 10. **Review and Launch Instance:**
 
@@ -120,7 +120,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    > :warning: **Replace "your-ec2-key-pair.pem" with the filename of your EC2 key pair and "your-ec2-public-ip" with your EC2 instance's public IP address.**
 
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/28987c7c-4742-414c-9975-f0b253520c34" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/28987c7c-4742-414c-9975-f0b253520c34" height="90%" width="90%">
 
 
 2. **Create a New User (Optional)**
