@@ -14,6 +14,10 @@ Before you begin, ensure you have the following:
 1. **SSH into your EC2 Instance**
 
    - Open your terminal (on Linux/macOS) or use an SSH client (e.g., PuTTY on Windows).
+   - Run this command, if necessary, to ensure your key is not publicly viewable.
+     ```
+     chmod 400 <b>your-ec2-key-pair<b>.pem
+     ```
    - Connect to your EC2 instance using the public IP address provided by AWS:
      ```
      ssh -i your-aws-key.pem ec2-user@your-ec2-public-ip
