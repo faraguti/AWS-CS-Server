@@ -41,12 +41,15 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 4. **Choose an Amazon Machine Image (AMI):**
 
    - Select an Ubuntu 22.04 LTS AMI or any other Ubuntu AMI you prefer.
+   <br/>
    <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/433c24e4-ef32-4f81-a84c-736de362d14c" height="80%" width="80%">
 
 5. **Choose an Instance Type:**
 
    - Select the instance type based on your requirements (e.g., t2.micro).
-
+   <br/>
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/770e9b6e-c2e8-4d65-817c-86ba615f4e0a" height="80%" width="80%">
+ 
 6. **Configure Instance Details:**
 
    - You can keep the default settings for these options:
