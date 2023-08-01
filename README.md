@@ -91,9 +91,10 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
 1. **SSH into your EC2 Instance**
 
-   - Open your terminal (on Linux/macOS) or use an SSH client (e.g., PuTTY on Windows).
+   - Open your terminal (on Linux/macOS), PowerShell (on Windows/macOS/Linux) or use an SSH client (e.g., PuTTY on Windows).
    - Run this command, if necessary, to ensure your key is not publicly viewable.
-     ```
+      Linux
+      ```
      chmod 400 your-ec2-key-pair.pem
      ```
    - Connect to your Ubuntu 22.04 EC2 instance using the public IP address provided by AWS:
