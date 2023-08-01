@@ -232,8 +232,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
    - The CS 1.6 server is now running! Players can connect to it using the public IP address of your EC2 instance and the port specified for the server.
      <br/>
-     <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/ecb020f8-30c8-4b8c-9361-d0766407e704" height="90%" width="90%">
-
+     <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/2469f353-908a-4b78-9dfd-79e24bc8288b" height="90%" width="90%">
 
 ## Troubleshooting
 
