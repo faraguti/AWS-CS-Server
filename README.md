@@ -9,7 +9,7 @@ This repository contains instructions on how to set up and run a CS 1.6 server o
 
 
 ![Alt](https://github.com/faraguti/cs1.6-server/blob/main/media/aws-login.png)
-<img src="https://github.com/faraguti/cs1.6-server/blob/main/media/aws-login.png" alt="Alt Text" width="640" height="400">
+<img src="https://github.com/faraguti/cs1.6-server/blob/main/media/aws-login.png" alt="Alt Text" width="800" height="400">
 
 
 ## Prerequisites
