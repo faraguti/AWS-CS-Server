@@ -13,6 +13,64 @@ Before you begin, ensure you have the following:
 1. [Create an EC2 Instance on AWS](#creating-an-ec2-instance-on-aws)
 2. [Setup CS 1.6 Server](#setup-cs-16-server)
 
+## Creating an EC2 Instance on AWS
+
+Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 server:
+
+1. **Sign in to AWS Console:**
+
+   - Go to the AWS Management Console (https://aws.amazon.com/).
+   - Sign in with your AWS account credentials.
+   <img src="https://github.com/faraguti/cs1.6-server/blob/main/media/aws-login.png" alt="Alt Text" width="800" height="400">
+
+2. **Navigate to EC2 Dashboard:**
+
+   - Once logged in, navigate to the EC2 Dashboard by clicking on "Services" in the top menu and selecting "EC2" under "Compute".
+
+3. **Launch Instance:**
+
+   - Click on "Launch Instance" to start the instance creation process.
+
+4. **Choose an Amazon Machine Image (AMI):**
+
+   - Select an Ubuntu 22.04 LTS AMI or any other Ubuntu AMI you prefer.
+
+5. **Choose an Instance Type:**
+
+   - Select the instance type based on your requirements (e.g., t2.micro).
+
+6. **Configure Instance Details:**
+
+   - You can keep the default settings for most options. However, make sure to configure the following:
+     - **Network**: Choose the VPC where your EC2 instance will reside.
+     - **Subnet**: Choose a subnet within the selected VPC.
+     - **Auto-assign Public IP**: Select "Enable" to allow your instance to have a public IP address.
+
+7. **Add Storage:**
+
+   - Define the storage size and type (e.g., General Purpose SSD) as per your needs.
+
+8. **Add Tags:**
+
+   - Optionally, you can add tags to help identify your instance (e.g., "CS-Server").
+
+9. **Configure Security Group:**
+
+   - Create a new security group or use an existing one to define inbound and outbound rules for your server. Make sure to open port 22 for SSH access and the port you'll be using for your CS 1.6 server (e.g., 27015) for both TCP and UDP traffic.
+
+10. **Review and Launch:**
+
+    - Review your instance configuration and click "Launch" when ready.
+
+11. **Select a Key Pair:**
+
+    - Choose an existing key pair or create a new one to allow SSH access to your instance.
+
+12. **Launch Instance:**
+
+    - Click "Launch Instances" to create your EC2 instance.
+
+
 ## Setup CS 1.6 Server
 
 1. **SSH into your EC2 Instance**
