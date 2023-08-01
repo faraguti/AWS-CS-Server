@@ -89,7 +89,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
 ## Setup CS 1.6 Server
 
-1. **SSH into your EC2 Instance**
+1. **SSH into your EC2 Instance**:
 
    - Open your terminal (on Linux/macOS), PowerShell (on Windows/macOS/Linux) or use an SSH client (e.g., PuTTY on Windows).
    - Run these commands, if necessary, to ensure your key is not publicly viewable.
@@ -123,7 +123,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/28987c7c-4742-414c-9975-f0b253520c34" height="90%" width="90%">
 
 
-2. **Create a New User (Optional)**
+2. **Create a New User (Optional)**:
 
    To improve security and organization, we'll create a new user for running the CS 1.6 server:
 
@@ -150,7 +150,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/acaadb39-122a-4b0e-8ab5-c70ccdeac29b" height="90%" width="90%">
      
 
-3. **Create Directory and Install Dependencies**
+3. **Create Directory and Install Dependencies**:
 
    - Create a directory for your CS 1.6 server files:
      ```
@@ -173,7 +173,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      sudo apt install lib32gcc-s1 steamcmd -y
      ```
 
-4. **Install CS 1.6 Server**
+4. **Install CS 1.6 Server**:
 
    - Launch SteamCMD to download and install the CS 1.6 server files:
      ```
@@ -197,7 +197,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    > :warning: **Note: The installation process may take some time, and it's possible that it could fail or stop due to various reasons, such as network interruptions or server load. If the installation process fails, don't worry; simply run the command again until the installation is successful.**
 
 
-5. **Prepare Server Configurations**
+5. **Prepare Server Configurations**:
 
    - Change the directory to the CS 1.6 server folder:
      ```
@@ -210,7 +210,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      touch banned.cfg
      ```
 
-6. **Start the CS 1.6 Server**
+6. **Start the CS 1.6 Server**:
 
    - Run the following command to start the server with the desired parameters:
      ```
