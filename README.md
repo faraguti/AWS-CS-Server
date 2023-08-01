@@ -49,33 +49,42 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    - Select the instance type based on your requirements (e.g., t2.micro).
    <br/>
    <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/770e9b6e-c2e8-4d65-817c-86ba615f4e0a" height="80%" width="80%">
+
+6. **Select a Key Pair:**
+
+    - Choose an existing key pair or create a new one to allow SSH access to your instance.
+   <br/>
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/4c7e7d52-ff23-41b4-bc19-16d3ee23e45a" height="80%" width="80%">
  
-6. **Configure Instance Details:**
+6. **Configure Network Settings:**
 
    - You can keep the default settings for these options:
      - **Network**: Choose the VPC where your EC2 instance will reside.
      - **Subnet**: Choose a subnet within the selected VPC.
      - **Auto-assign Public IP**: Select "Enable" to allow your instance to have a public IP address.
+      
+9. **Configure Security Group:**
+
+   - Create a new security group or use an existing one to define inbound and outbound rules for your server. Make sure to open port 22 for SSH access and the port you'll be using for your CS 1.6 server (e.g., 27015) for both TCP and UDP traffic.
+   <br/>
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/65bd6398-3e0e-445b-8e6f-57511e966cd2" height="80%" width="80%">
+   > :warning: **To improve security, consider updating the security group's inbound rule for SSH (port 22) to only allow access from your specific IP address. This way, only your IP will be able to SSH into the instance, reducing the risk of unauthorized access**
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/d9538453-f8b2-471c-8207-eeab1d297570" height="80%" width="80%">
 
 7. **Add Storage:**
 
    - Define the storage size and type (20GiB is enough).
+   ![image](https://github.com/faraguti/cs1.6-server/assets/5418256/73b3fb15-cbbb-482b-9a83-8658f5d12610)
+
 
 8. **Add Tags:**
 
    - Optionally, you can add tags to help identify your instance (e.g., "CS-Server").
 
-9. **Configure Security Group:**
-
-   - Create a new security group or use an existing one to define inbound and outbound rules for your server. Make sure to open port 22 for SSH access and the port you'll be using for your CS 1.6 server (e.g., 27015) for both TCP and UDP traffic.
 
 10. **Review and Launch:**
 
     - Review your instance configuration and click "Launch" when ready.
-
-11. **Select a Key Pair:**
-
-    - Choose an existing key pair or create a new one to allow SSH access to your instance.
 
 12. **Launch Instance:**
 
