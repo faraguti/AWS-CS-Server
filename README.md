@@ -21,7 +21,6 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
    - Go to the AWS Management Console (https://aws.amazon.com/).
    - Sign in with your AWS account credentials.
-   <br>
    <img src="https://github.com/faraguti/cs1.6-server/blob/main/media/aws-login.png" alt="Alt Text" width="800" height="400">
 
 2. **Navigate to EC2 Dashboard:**
