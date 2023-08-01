@@ -22,9 +22,10 @@ Before you begin, ensure you have the following:
      ```
      ssh -i your-ec2-key-pair.pem ubuntu@your-ec2-public-ip
      ```
-    <br>
+
    > :warning: **Replace "your-ec2-key-pair.pem" with the filename of your EC2 key pair and "your-ec2-public-ip" with your EC2 instance's public IP address.**
-   <br>
+
+  
 2. **Create a New User**
 
    - To improve security, we'll create a new user for running the CS 1.6 server:
