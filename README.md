@@ -103,14 +103,14 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      Replace 'C:\path\to\private_key.pem' with the actual path to your private key file
      ```
       $pathToPrivateKey = 'C:\path\to\private_key.pem'
-      ```
+     ```
      Set restrictive permissions (Read and Write for the owner, no permissions for others)
      ```
       icacls $pathToPrivateKey /inheritance:r
       icacls $pathToPrivateKey /grant:r 'NT AUTHORITY\SYSTEM:(R)'
       icacls $pathToPrivateKey /grant:r 'BUILTIN\Administrators:(R)'
       icacls $pathToPrivateKey /remove:g '*S-1-1-0'
-      ```
+     ```
       
    - Connect to your Ubuntu 22.04 EC2 instance using the public IP address provided by AWS:
      ```
@@ -234,6 +234,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      <br/>
      <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/2469f353-908a-4b78-9dfd-79e24bc8288b" height="90%" width="90%">
 
+<br>
 **EXTRA: Run CS 1.6 Server in the Background**
 
    - To run the CS 1.6 server in the background and keep it running after you log out of the SSH session, you can use the `screen` utility. `screen` is a terminal multiplexer for Unix-like operating systems, including Linux. It allows you to run multiple terminal sessions within a single window, and most importantly, it enables you to detach and reattach to these sessions. If you don't have it installed, you can install it with the following command:
@@ -245,9 +246,11 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      screen -S cs16-server ./hlds_run -game cstrike +maxplayers 12 +map de_dust2
      ```
    - To detach from the screen session and leave the server running in the background, press Ctrl + A followed by Ctrl + D. If you need to reattach to the screen session later, use the following command:
-      ```
-      screen -r cs16-server
-      ```
+     ```
+     screen -r cs16-server
+     ```
+   - By running the CS 1.6 server in a screen session, you ensure the server remains active and functional even when you are not connected to the EC2 instance via SSH. It allows you to manage the server remotely and maintain continuity in your server's operation, making it a convenient and reliable solution for hosting CS 1.6 on an AWS EC2 instance.
+
 
 ## Troubleshooting
 
