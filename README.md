@@ -93,7 +93,8 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
    - Open your terminal (on Linux/macOS), PowerShell (on Windows/macOS/Linux) or use an SSH client (e.g., PuTTY on Windows).
    - Run this command, if necessary, to ensure your key is not publicly viewable.
-      Linux
+
+     Linux
       ```
      chmod 400 your-ec2-key-pair.pem
      ```
