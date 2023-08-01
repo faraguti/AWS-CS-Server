@@ -196,6 +196,9 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      ```
      app_update 90 validate
      ```
+   <br/>
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/d378e286-23fd-4784-ab26-0ff7ae86d336" height="90%" width="90%">
+
    > :warning: **Note: The installation process may take some time, and it's possible that it could fail or stop due to various reasons, such as network interruptions or server load. If the installation process fails, don't worry; simply run the command again until the installation is successful.**
 
 
