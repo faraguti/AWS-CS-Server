@@ -223,6 +223,8 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      ```
      ./hlds_run -game cstrike +maxplayers 12 +map de_dust2
      ```
+     <br/>
+     <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/52b82094-cbf8-49e3-9b00-ec8b09a6e2ff" height="90%" width="90%">
 
    > :warning: **Note:** The first time you run the server after installation, you may encounter a "FATAL ERROR (shutting down): Unable to initialize Steam" error, and the server won't start successfully. This issue is common after the initial installation. To resolve it, simply run the same command again, and the server should start without any issues on the second attempt. Subsequent server starts should work smoothly.
 
