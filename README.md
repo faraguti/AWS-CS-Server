@@ -54,7 +54,7 @@ Before you begin, ensure you have the following:
 
    - Create a directory for your CS 1.6 server files and install the necessary dependencies:
      ```
-     mkdir cs1.6
+     mkdir /home/cs-server/cs1.6
      sudo add-apt-repository multiverse
      sudo dpkg --add-architecture i386
      sudo apt update
