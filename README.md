@@ -1,3 +1,5 @@
+![image](https://github.com/faraguti/cs1.6-server/assets/5418256/01a9e382-9fd2-4a65-9678-bb6094ae93bf)
+
 # CS 1.6 Server Setup on AWS EC2 Instance (Ubuntu 22.04)
 
 This repository contains instructions on how to set up and run a CS 1.6 server on an AWS EC2 instance running Ubuntu 22.04. Follow the steps below to get your server up and running.
@@ -21,7 +23,6 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
    - Go to the AWS Management Console (https://aws.amazon.com/).
    - Sign in with your AWS account credentials.
-   <img src="https://github.com/faraguti/cs1.6-server/blob/main/media/aws-login.png" alt="Alt Text" width="800" height="400">
 
 2. **Navigate to EC2 Dashboard:**
 
@@ -48,7 +49,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
 7. **Add Storage:**
 
-   - Define the storage size and type (e.g., General Purpose SSD) as per your needs.
+   - Define the storage size and type (20GiB is enough).
 
 8. **Add Tags:**
 
