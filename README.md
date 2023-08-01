@@ -6,7 +6,6 @@ This repository contains instructions on how to set up and run a CS 1.6 server o
 
 Before you begin, ensure you have the following:
 
-- An AWS account with an EC2 instance already set up (running Ubuntu 22.04).
 - Basic familiarity with working on the Linux command-line interface.
 
 ## Step-by-Step Setup
