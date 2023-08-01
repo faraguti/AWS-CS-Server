@@ -26,13 +26,27 @@ Before you begin, ensure you have the following:
    > :warning: **Replace "your-ec2-key-pair.pem" with the filename of your EC2 key pair and "your-ec2-public-ip" with your EC2 instance's public IP address.**
 
   
-2. **Create a New User**
+2. **Create a New User (Optional)**
 
-   - To improve security, we'll create a new user for running the CS 1.6 server:
+   To improve security, we'll create a new user for running the CS 1.6 server:
+
+   - Switch to the superuser (root) account using the following command:
      ```
      sudo su
+     ```
+
+   - Create a new user named "cs-server" with the following command:
+     ```
      adduser cs-server
+     ```
+
+   - Add the "cs-server" user to the "sudo" group to grant administrative privileges:
+     ```
      usermod -aG sudo cs-server
+     ```
+
+   - Switch to the newly created "cs-server" user with the following command:
+     ```
      su cs-server
      ```
 
