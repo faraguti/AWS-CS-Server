@@ -172,6 +172,8 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      ```
      sudo apt install lib32gcc-s1 steamcmd -y
      ```
+   <br/>
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/509c16c4-56cb-4dc8-a139-2e262a310acd" height="90%" width="90%">
 
 4. **Install CS 1.6 Server**:
 
