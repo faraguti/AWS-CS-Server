@@ -31,7 +31,7 @@ Before you begin, ensure you have the following:
    - To improve security, we'll create a new user for running the CS 1.6 server:
      ```
      sudo su
-     useradd cs-server
+     adduser cs-server
      usermod -aG sudo cs-server
      su cs-server
      ```
