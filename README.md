@@ -116,12 +116,13 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      ```
      ssh -i your-ec2-key-pair.pem ubuntu@your-ec2-public-ip
      ```
+     
+   > :warning: **Replace "your-ec2-key-pair.pem" with the filename of your EC2 key pair and "your-ec2-public-ip" with your EC2 instance's public IP address.**
+
    <br/>
    <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/6edcc7f5-404c-4c4d-b507-195b775ac505" height="80%" width="80%">
 
-   > :warning: **Replace "your-ec2-key-pair.pem" with the filename of your EC2 key pair and "your-ec2-public-ip" with your EC2 instance's public IP address.**
 
-  
 2. **Create a New User (Optional)**
 
    To improve security and organization, we'll create a new user for running the CS 1.6 server:
