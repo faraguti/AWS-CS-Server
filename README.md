@@ -27,6 +27,8 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 2. **Navigate to EC2 Dashboard:**
 
    - Once logged in, navigate to the EC2 Dashboard by clicking on "Services" in the top menu and selecting "EC2" under "Compute".
+   ![image](https://github.com/faraguti/cs1.6-server/assets/5418256/b6e78a13-5754-494e-8b39-20c93cc5717d)
+
 
 3. **Launch Instance:**
 
@@ -42,7 +44,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
 6. **Configure Instance Details:**
 
-   - You can keep the default settings for most options. However, make sure to configure the following:
+   - You can keep the default settings for these options:
      - **Network**: Choose the VPC where your EC2 instance will reside.
      - **Subnet**: Choose a subnet within the selected VPC.
      - **Auto-assign Public IP**: Select "Enable" to allow your instance to have a public IP address.
