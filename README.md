@@ -219,7 +219,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
 6. **Start the CS 1.6 Server**:
 
-   - Run the following command to start the server with the desired parameters:
+   - Now go back to /home/cs-server/cs1.6 folder and run the following command to start the server with the desired parameters:
      ```
      ./hlds_run -game cstrike +maxplayers 12 +map de_dust2
      ```
