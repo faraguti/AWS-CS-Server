@@ -63,11 +63,23 @@ Before you begin, ensure you have the following:
 
 4. **Install CS 1.6 Server**
 
-   - Launch SteamCMD and install the CS 1.6 server files:
+   - Launch SteamCMD to download and install the CS 1.6 server files:
      ```
      steamcmd
+     ```
+
+   - Log in to Steam anonymously to access the necessary CS 1.6 server files:
+     ```
      login anonymous
+     ```
+
+   - Set the installation directory to `/home/cs-server/cs1.6`:
+     ```
      force_install_dir /home/cs-server/cs1.6
+     ```
+
+   - Download and install the CS 1.6 server files (App ID 90) and validate the installation:
+     ```
      app_update 90 validate
      ```
 
@@ -86,14 +98,9 @@ Before you begin, ensure you have the following:
 
 6. **Start the CS 1.6 Server**
 
-   - Run the following command to start the server with the desired parameters (replace `0.0.0.0` with your server's IP address):
+   - Run the following command to start the server with the desired parameters:
      ```
-     ./hlds_run -game cstrike +ip 0.0.0.0 +maxplayers 12 +map de_dust2
-     ```
-
-   - To start the server with a different map, use the following command:
-     ```
-     ./hlds_run -game cstrike +maxplayers 12 +map de_inferno
+     ./hlds_run -game cstrike +maxplayers 12 +map de_dust2
      ```
 
 7. **Accessing Your CS 1.6 Server**
