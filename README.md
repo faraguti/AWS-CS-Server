@@ -2,19 +2,18 @@
 
 This repository contains instructions on how to set up and run a CS 1.6 server on an AWS EC2 instance running Ubuntu 22.04. Follow the steps below to get your server up and running.
 
-## Summary
-
-1. [Create an EC2 Instance on AWS](#creating-an-ec2-instance-on-aws)
-2. [Setup CS 1.6 Server](#step-by-step-setup)
-
-
 ## Prerequisites
 
 Before you begin, ensure you have the following:
 
 - Basic familiarity with working on the Linux command-line interface.
 
-## Step-by-Step Setup
+## Summary
+
+1. [Create an EC2 Instance on AWS](#creating-an-ec2-instance-on-aws)
+2. [Setup CS 1.6 Server](#setup-cs-1.6-server)
+
+## Setup CS 1.6 Server
 
 1. **SSH into your EC2 Instance**
 
