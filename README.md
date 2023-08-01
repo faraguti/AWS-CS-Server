@@ -80,12 +80,6 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    - Define the storage size and type (20GiB is enough).
    ![image](https://github.com/faraguti/cs1.6-server/assets/5418256/73b3fb15-cbbb-482b-9a83-8658f5d12610)
 
-
-8. **Add Tags:**
-
-   - Optionally, you can add tags to help identify your instance (e.g., "CS-Server").
-
-
 10. **Review and Launch:**
 
     - Review your instance configuration and click "Launch" when ready.
