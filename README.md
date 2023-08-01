@@ -85,7 +85,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
 10. **Review and Launch Instance:**
 
-    - Review your instance configuration and click "Launch Instance" when ready.
+    - Review your instance configuration and click **"Launch Instance"** when ready.
 
 <br><br/>
 
