@@ -152,13 +152,13 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
    - Change the directory to the CS 1.6 server folder:
      ```
-     cd /home/cs-server/cs1.6
+     cd /home/cs-server/cs1.6/cstrike
      ```
 
    - Create the required configuration files:
      ```
-     touch cstrike/listip.cfg
-     touch cstrike/banned.cfg
+     touch listip.cfg
+     touch banned.cfg
      ```
 
 6. **Start the CS 1.6 Server**
