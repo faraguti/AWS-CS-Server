@@ -105,6 +105,8 @@ Before you begin, ensure you have the following:
      ./hlds_run -game cstrike +maxplayers 12 +map de_dust2
      ```
 
+   > :information_source: **Note:** The first time you run the server after installation, you may encounter a "FATAL ERROR (shutting down): Mod_NumForName: models/player/gign.mdl not found" error, and the server won't start successfully. This issue is common after the initial installation. To resolve it, simply run the same command again, and the server should start without any issues on the second attempt. Subsequent server starts should work smoothly.
+
 7. **Accessing Your CS 1.6 Server**
 
    - The CS 1.6 server is now running! Players can connect to it using the public IP address of your EC2 instance and the port specified for the server.
