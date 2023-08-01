@@ -154,10 +154,10 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
    - Create a directory for your CS 1.6 server files and install the necessary dependencies:
      ```
-     mkdir /home/cs-server/cs1.6
-     sudo add-apt-repository multiverse
-     sudo dpkg --add-architecture i386
-     sudo apt update
+     mkdir /home/cs-server/cs1.6 |
+     sudo add-apt-repository multiverse |
+     sudo dpkg --add-architecture i386 |
+     sudo apt update |
      sudo apt install lib32gcc-s1 steamcmd -y
      ```
 
