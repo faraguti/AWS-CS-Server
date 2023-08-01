@@ -82,7 +82,7 @@ Before you begin, ensure you have the following:
      ```
      app_update 90 validate
      ```
-   > :warning: **Note: The installation process may take some time, and it's possible that it could fail or stop due to various reasons, such as network interruptions or server load. If the installation process fails, don't worry; simply try running the app_update 90 validate command again until the installation is successful.**
+   > :warning: **Note: The installation process may take some time, and it's possible that it could fail or stop due to various reasons, such as network interruptions or server load. If the installation process fails, don't worry; simply run the command again until the installation is successful.**
 
 
 5. **Prepare Server Configurations**
