@@ -211,7 +211,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
 
    - Create the required configuration files:
      ```
-     touch listip.cfg
+     touch listip.cfg |
      touch banned.cfg
      ```
 
