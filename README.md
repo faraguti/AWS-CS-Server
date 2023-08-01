@@ -237,7 +237,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/2469f353-908a-4b78-9dfd-79e24bc8288b" height="90%" width="90%">
 
 <br><br/>
-**EXTRA: Run CS 1.6 Server in the Background**
+- **EXTRA: Run CS 1.6 Server in the Background**
 
    - To run the CS 1.6 server in the background and keep it running after you log out of the SSH session, you can use the `screen` utility. `screen` is a terminal multiplexer for Unix-like operating systems, including Linux. It allows you to run multiple terminal sessions within a single window, and most importantly, it enables you to detach and reattach to these sessions. If you don't have it installed, you can install it with the following command:
      ```
