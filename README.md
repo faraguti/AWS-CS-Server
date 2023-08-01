@@ -146,6 +146,9 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
      ```
      su cs-server
      ```
+   <br/>
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/acaadb39-122a-4b0e-8ab5-c70ccdeac29b" height="90%" width="90%">
+     
 
 3. **Create Directory and Install Dependencies**
 
