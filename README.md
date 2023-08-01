@@ -120,7 +120,8 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    > :warning: **Replace "your-ec2-key-pair.pem" with the filename of your EC2 key pair and "your-ec2-public-ip" with your EC2 instance's public IP address.**
 
    <br/>
-   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/d1be2cb5-6a72-4b3f-a683-41244091fd41" height="80%" width="80%">
+   <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/28987c7c-4742-414c-9975-f0b253520c34" height="80%" width="80%">
+
 
 2. **Create a New User (Optional)**
 
