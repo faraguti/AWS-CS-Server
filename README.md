@@ -72,6 +72,8 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    > :warning: **To improve security, consider updating the security group's inbound rule for SSH (port 22) to only allow access from your specific IP address. This way, only your IP will be able to SSH into the instance, reducing the risk of unauthorized access**
 
    <img src="https://github.com/faraguti/cs1.6-server/assets/5418256/d9538453-f8b2-471c-8207-eeab1d297570" height="80%" width="80%">
+   
+   > :warning: **Opening both TCP and UDP ports 27015 (used by the CS 1.6 server) to "0.0.0.0" (any IP address) allows any player to connect to your server.**
 
 7. **Add Storage:**
 
