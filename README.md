@@ -6,7 +6,7 @@ This repository contains instructions on how to set up and run a CS 1.6 server o
 
 Before you begin, ensure you have the following:
 
-- An AWS account with an EC2 instance already set up.
+- An AWS account with an EC2 instance already set up (running Ubuntu 22.04).
 - Basic familiarity with working on the Linux command-line interface.
 
 ## Step-by-Step Setup
@@ -20,7 +20,7 @@ Before you begin, ensure you have the following:
      ```
    - Connect to your EC2 instance using the public IP address provided by AWS:
      ```
-     ssh -i your-aws-key.pem ec2-user@your-ec2-public-ip
+     ssh -i "your-aws-key.pem" ubuntu@your-ec2-public-ip
      ```
 
 2. **Create a New User**
