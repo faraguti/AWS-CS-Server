@@ -12,7 +12,7 @@ Before you begin, ensure you have the following:
 
 - Basic familiarity with working on the Linux command-line interface.
 
-## Summary
+## Table of Contents
 
 1. [Create an EC2 Instance on AWS](#creating-an-ec2-instance-on-aws)
 2. [Setup CS 1.6 Server](#setup-cs-16-server)
