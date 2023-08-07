@@ -130,7 +130,7 @@ Follow these steps to create an EC2 instance on AWS for hosting your CS 1.6 serv
    To improve security and organization, we'll create a new user for running the CS 1.6 server:
 
    - Switch to the superuser (root) account using the following command:
-     ```
+     ```bash
      sudo su
      ```
 
